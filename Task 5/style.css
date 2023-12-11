@@ -1,0 +1,35 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	cursor: pointer;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+li.active {
+	background-color: #eee;
+}
+
+.content {
+	display: none;
+	padding: 20px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.content.active {
+	display: block;
+}
+
+.content:nth-child(odd) {
+	background-color: rgb(87, 156, 26)
+}
+
+.content:nth-child(even) {
+	background-color: #ffe4e1; 
+}

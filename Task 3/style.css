@@ -1,0 +1,14 @@
+#table-container {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	width: max-content;
+}
+
+#table-container td, #table-container th {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+#table-container th {
+	background-color: #f0f0f0;
+}

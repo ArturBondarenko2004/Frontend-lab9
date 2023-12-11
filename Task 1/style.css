@@ -1,0 +1,36 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 200px;
+	background-color: rgba(219, 199, 199, 0.7);
+	z-index: 1000;
+	border: 2px solid red;
+	border-radius: 20px;
+ }
+
+ .modal-header {
+	background-color: #fff;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	border-radius: 20px;
+ }
+ #closeBtn{
+	float: right;
+ }
+
+ #openButton {
+	padding: 10px 15px;
+	font-size: 16px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#openButton:hover {
+	background-color: #2980b9;
+}
